@@ -1,0 +1,21 @@
+body { font-family: system-ui, sans-serif; background: #f6f7f9; margin: 0; color: #1d2330; }
+.container { max-width: 760px; margin: 32px auto; padding: 0 16px; }
+.controls { display: flex; gap: 16px; margin-bottom: 16px; }
+.tasks { list-style: none; padding: 0; }
+.task { display: flex; justify-content: space-between; align-items: center; background: #fff;
+  border: 1px solid #e2e5ea; border-radius: 8px; padding: 12px 14px; margin-bottom: 8px; }
+.meta { font-size: 13px; color: #667085; margin-top: 4px; }
+.right { display: flex; gap: 8px; align-items: center; }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: #eef0f3; }
+.badge.overdue { background: #fde2e1; color: #b42318; }
+.badge.done { background: #dcfae6; color: #067647; }
+.badge.in_progress { background: #e0eaff; color: #3538cd; }
+button { cursor: pointer; border: 1px solid #d0d5dd; background: #fff; border-radius: 6px; padding: 4px 10px; }
+.error { color: #b42318; }
+.stats-bar { display: flex; gap: 12px; margin-bottom: 20px; }
+.stat-card { flex: 1; background: #fff; border: 1px solid #e2e5ea; border-radius: 8px; padding: 12px; text-align: center; }
+.stat-card .stat-value { font-size: 20px; font-weight: bold; margin-bottom: 4px; }
+.stat-card .stat-label { font-size: 12px; color: #667085; text-transform: uppercase; letter-spacing: 0.5px; }
+.stat-card.overdue .stat-value { color: #b42318; }
+.stat-card.done .stat-value { color: #067647; }
+.stat-card.in_progress .stat-value { color: #3538cd; }
